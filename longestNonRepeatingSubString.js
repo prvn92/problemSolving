@@ -22,3 +22,16 @@ function findMaxNonRepSubStrLength(str){
 }
 
 console.log("test",findMaxNonRepSubStrLength(str)); 
+
+/* 
+function countOnes(arr){
+if(!arr.length) return 0;
+for(let itr = 1; itr < arr.length; itr+=1){
+    if(arr[itr] === 1){
+    arr[0]+=1;
+    }
+  }
+  return arr[0]
+}
+
+console.log("test", countOnes([1,0,1])); */
